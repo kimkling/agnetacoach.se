@@ -72,6 +72,19 @@ input, select, textarea {
 	appearance: none;
 }
 
+#phone-number {
+	white-space: nowrap;
+}
+
+#contact-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#contact-text {
+	max-width: 60%;
+}
+
 /* Basic */
 
 	html {
