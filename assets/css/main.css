@@ -79,10 +79,11 @@ input, select, textarea {
 #contact-container {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 #contact-text {
-	max-width: 60%;
+	width: fit-content;
 }
 
 /* Basic */
